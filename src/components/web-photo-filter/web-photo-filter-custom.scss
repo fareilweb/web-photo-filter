@@ -1,2 +1,16 @@
-body {
+canvas,
+img {
+  max-width: 100%;
+}
+
+web-photo-filter.no-original {
+  img {
+    display: none;
+  }
+}
+
+web-photo-filter.only-original {
+  canvas {
+    display: none;
+  }
 }

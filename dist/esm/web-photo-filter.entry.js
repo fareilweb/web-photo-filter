@@ -186,7 +186,7 @@ class WebPhotoFilterType {
   }
 }
 
-const webPhotoFilterCss = "img{display:none}img.display-no-filter{display:block}";
+const webPhotoFilterCss = "canvas,img{max-width:100%}web-photo-filter.no-original img{display:none}web-photo-filter.only-original canvas{display:none}img{display:none}img.display-no-filter{display:block}";
 
 const WebPhotoFilterComponent = class {
   constructor(hostRef) {
