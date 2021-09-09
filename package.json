@@ -18,6 +18,7 @@
   ],
   "scripts": {
     "build": "stencil build --docs",
+    "watch": "stencil build --watch",
     "start": "stencil build --dev --watch --serve",
     "web": "stencil build"
   },
