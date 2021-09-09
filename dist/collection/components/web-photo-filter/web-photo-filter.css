@@ -1,0 +1,6 @@
+img {
+  display: none;
+}
+img.display-no-filter {
+  display: block;
+}
